@@ -1,0 +1,314 @@
+<?php
+$pageTitle = "Mike's Full Catalog of Shirts";
+$section = "shirts";
+include('inc/header1.php'); ?>
+
+</br>
+</br>
+</br>
+</br>		
+<ul>
+			<li id="1">
+				<img src="grocery/body lotion/1.jpg" class="items" height="100" alt="" />
+				
+				<br clear="all" />
+				<div>Red Grocery Bag</div>
+			</li>
+			
+			<li id="2">
+				<img src="grocery/body lotion/2.jpg" class="items" height="100" alt="" />
+				
+				<br clear="all" />
+				<div>Reusable Grocery Bag</div>
+			</li>
+			
+			<li id="3">
+				<img src="grocery/body lotion/3.jpg" class="items" height="100" alt="" />
+				
+				<br clear="all" />
+				<div>White Grocery Bag</div>
+			</li>
+			<li id="4">
+				<img src="grocery/body lotion/4.jpg" class="items" height="100" alt="" />
+				
+				<br clear="all" />
+				<div>Yellow Grocery Bag</div>
+			</li>
+			
+			<!-- Detail Boxes for above four li -->
+			
+			<div class="detail-view" id="detail-1">
+			
+				<div class="close" align="right">
+					<a href="javascript:void(0)">x</a>
+					
+				</div>
+				
+				<img src="grocery/body lotion/1.jpg" class="detail_images" width="340" height="310" alt="" />
+				
+				<div class="detail_info">
+					
+					<label class='item_name'>Red Grocery Bag</label>
+					<br clear="all" />
+					
+					<p>
+						shopping bag, shopping, bag, merchandise, consumerism, gift:
+					
+						<br clear="all" /><br clear="all" />
+						$<span class="price">80.00</span>
+						
+					</p>
+					
+					<br clear="all" />
+					
+					<button  class="add-to-cart-button">Add to Cart</button>
+					
+				</div>
+				
+				
+			</div>
+			<div class="detail-view" id="detail-2">
+				
+				<div class="close" align="right">
+					<a href="javascript:void(0)">x</a>
+					
+				</div>
+				
+				<img src="grocery/body lotion/2.jpg" class="detail_images" width="340" height="310" alt="" />
+				
+				<div class="detail_info">
+					
+					<label class='item_name'>Reusable Grocery Bag</label>
+					<br clear="all" />
+					
+					<p>
+						shopping bag, shopping, bag, merchandise, consumerism, gift:
+					
+						<br clear="all" /><br clear="all" />
+						$<span class="price">70.00</span>
+						
+					</p>
+					
+					<br clear="all" />
+					
+					<button  class="add-to-cart-button">Add to Cart</button>
+					
+				</div>
+				
+			</div>
+			<div class="detail-view" id="detail-3">
+				
+				<div class="close" align="right">
+					<a href="javascript:void(0)">x</a>
+					
+				</div>
+				
+				<img src="grocery/body lotion/3.jpg" class="detail_images" width="340" height="310" alt="" />
+				
+				<div class="detail_info">
+					
+					<label class='item_name'>White Grocery Bag</label>
+					<br clear="all" />
+					
+
+					<p>
+						shopping bag, shopping, bag, merchandise, consumerism, gift:
+					
+						<br clear="all" /><br clear="all" />
+						$<span class="price">50.00</span>
+						
+					</p>
+					
+					<br clear="all" />
+					
+					<button  class="add-to-cart-button">Add to Cart</button>
+					
+				</div>
+				
+			</div>
+			<div class="detail-view" id="detail-4">
+				
+				<div class="close" align="right">
+					<a href="javascript:void(0)">x</a>
+					
+				</div>
+				
+				<img src="grocery/body lotion/4.jpg" class="detail_images" width="340" height="310" alt="" />
+				
+				<div class="detail_info">
+					
+					<label class='item_name'>Yellow Grocery Bag</label>
+					<br clear="all" />
+					
+					<p>
+						shopping bag, shopping, bag, merchandise, consumerism, gift:
+					
+						<br clear="all" /><br clear="all" />
+						$<span class="price">90.00</span>
+						
+					</p>
+					
+					<br clear="all" />
+					
+					<button  class="add-to-cart-button">Add to Cart</button>
+					
+				</div>
+				
+			</div>
+			
+			<!---->
+			
+			<li id="5">
+				<img src="grocery/body lotion/5.jpg" class="items" height="100" alt="" />
+				
+				<br clear="all" />
+				<div>Reusable Green Bag</div>
+			</li>
+			
+			<li id="6">
+				<img src="grocery/body lotion/6.jpg" class="items" height="100" alt="" />
+				
+				<br clear="all" />
+				<div>Simple  Bag</div>
+			</li>
+			
+			<li id="7">
+				<img src="grocery/body lotion/7.jpg" class="items" height="100" alt="" />
+				
+				<br clear="all" />
+				<div>WhiteGrocery Bag</div>
+			</li>
+			<li id="8">
+				<img src="grocery/body lotion/8.jpg" class="items" height="100" alt="" />
+				
+				<br clear="all" />
+				<div>Reusable Grocery Bag</div>
+			</li>
+			
+			<!-- Detail Boxes for above four li -->
+			
+			<div class="detail-view" id="detail-5">
+				
+				<div class="close" align="right">
+					<a href="javascript:void(0)">x</a>
+					
+				</div>
+				
+				<img src="grocery/body lotion/5.jpg" class="detail_images" width="340" height="310" alt="" />
+				
+				<div class="detail_info">
+					
+					<label class='item_name'>Reusable Grocery Bag</label>
+					<br clear="all" />
+					
+					<p>
+						shopping bag, shopping, bag, merchandise, consumerism, gift:
+					
+						<br clear="all" /><br clear="all" />
+						$<span class="price">80.00</span>
+						
+					</p>
+					
+					<br clear="all" />
+					
+					<button  class="add-to-cart-button">Add to Cart</button>
+					
+				</div>
+				
+			</div>
+			<div class="detail-view" id="detail-6">
+				
+				<div class="close" align="right">
+					<a href="javascript:void(0)">x</a>
+					
+				</div>
+				
+				<img src="grocery/body lotion/6.jpg" class="detail_images" width="340" height="310" alt="" />
+				
+				<div class="detail_info">
+					
+					<label class='item_name'>Reusable Grocery Bag</label>
+					<br clear="all" />
+					
+					<p>
+						shopping bag, shopping, bag, merchandise, consumerism, gift:
+					
+						<br clear="all" /><br clear="all" />
+						$<span class="price">80.00</span>
+						
+					</p>
+					
+					<br clear="all" />
+					
+					<button  class="add-to-cart-button">Add to Cart</button>
+					
+				</div>
+				
+			</div>
+			<div class="detail-view" id="detail-7">
+				
+				<div class="close" align="right">
+					<a href="javascript:void(0)">x</a>
+					
+				</div>
+				
+				<img src="grocery/body lotion/7.jpg" class="detail_images" width="340" height="310" alt="" />
+				
+				<div class="detail_info">
+					
+					<label class='item_name'>WhiteGrocery Bag</label>
+					<br clear="all" />
+					
+					<p>
+						shopping bag, shopping, bag, merchandise, consumerism, gift:
+					
+						<br clear="all" /><br clear="all" />
+						$<span class="price">80.00</span>
+						
+					</p>
+					
+					<br clear="all" />
+					
+					<button  class="add-to-cart-button">Add to Cart</button>
+					
+				</div>
+				
+			</div>
+			<div class="detail-view" id="detail-8">
+				
+				<div class="close" align="right">
+					<a href="javascript:void(0)">x</a>
+					
+				</div>
+				
+				<img src="grocery/body lotion/8.jpg" class="detail_images" width="340" height="310" alt="" />
+				
+				<div class="detail_info">
+					
+					<label class='item_name'>Reusable Grocery Bag</label>
+					<br clear="all" />
+					
+					<p>
+						shopping bag, shopping, bag, merchandise, consumerism, gift:
+					
+						<br clear="all" /><br clear="all" />
+						$<span class="price">80.00</span>
+						
+					</p>
+					
+					<br clear="all" />
+					
+					<button  class="add-to-cart-button">Add to Cart</button>
+					
+				</div>
+				
+			</div>
+			
+			<!---->
+			
+			
+			
+
+
+
+<?php include('inc/footer.php') ?>

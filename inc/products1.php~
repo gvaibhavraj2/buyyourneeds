@@ -1,0 +1,89 @@
+<?php
+
+function get_list_view_html($product_id, $product) {
+    
+    $output = "";
+
+    $output = $output . "<li>";
+    $output = $output . '<a href="shirt.php?id=' . $product_id . '">';
+    $output = $output . '<img src="' . $product["img"] . '" alt="' . $product["name"] . '">';
+    $output = $output . "<p>View Details</p>";
+    $output = $output . "</a>";
+    $output = $output . "</li>";
+
+    return $output;
+}
+
+$products = array();
+$products[1] = array(
+	"name" => "Logo Shirt, Red",
+	"img" => "facewash/1.jpg",
+	"price" => 18,
+	"paypal" => "9P7DLECFD4LKE",
+    "sizes" => array("Small","Medium","Large","X-Large")
+);
+$products[2] = array(
+	"name" => "Mike the Frog Shirt, Black",
+    "img" => "facewash/2.jpg",
+    "price" => 20,
+    "paypal" => "SXKPTHN2EES3J",
+    "sizes" => array("Small","Medium","Large","X-Large")
+);
+$products[3] = array(
+    "name" => "Mike the Frog Shirt, Blue",
+    "img" => "facewash/3.jpg",  
+    "price" => 20,
+    "paypal" => "7T8LK5WXT5Q9J",
+    "sizes" => array("Small","Medium","Large","X-Large")
+);
+$products[4] = array(
+    "name" => "Logo Shirt, Green",
+    "img" => "facewash/4.jpg",    
+    "price" => 18,
+    "paypal" => "YKVL5F87E8PCS",
+    "sizes" => array("Small","Medium","Large","X-Large")
+);
+$products[5] = array(
+    "name" => "Mike the Frog Shirt, Yellow",
+    "img" => "facewash/5.jpg",    
+    "price" => 25,
+    "paypal" => "4CLP2SCVYM288",
+    "sizes" => array("Small","Medium","Large","X-Large")
+);
+$products[6] = array(
+    "name" => "Logo Shirt, Gray",
+    "img" => "facewash/6.jpg",   
+    "price" => 20,
+    "paypal" => "TNAZ2RGYYJ396",
+    "sizes" => array("Small","Medium","Large","X-Large")
+);
+$products[7] = array(
+    "name" => "Logo Shirt, Teal",
+    "img" => "facewash/7.jpg",
+    "price" => 20,
+    "paypal" => "S5FMPJN6Y2C32",
+    "sizes" => array("Small","Medium","Large","X-Large")
+);
+$products[8] = array(
+    "name" => "Mike the Frog Shirt, Orange",
+    "img" => "facewash/8.jpeg",    
+    "price" => 25,
+    "paypal" => "JMFK7P7VEHS44",
+    "sizes" => array("Large","X-Large")
+);
+$products[9] = array(
+    "name" => "Mike the Frog Shirt, Orange",
+    "img" => "facewash/9.jpeg",    
+    "price" => 25,
+    "paypal" => "JMFK7P7VEHS44",
+    "sizes" => array("Large","X-Large")
+);
+$products[10] = array(
+    "name" => "Mike the Frog Shirt, Orange",
+    "img" => "facewash/10.jpg",    
+    "price" => 25,
+    "paypal" => "JMFK7P7VEHS44",
+    "sizes" => array("Large","X-Large")
+);
+
+?>
